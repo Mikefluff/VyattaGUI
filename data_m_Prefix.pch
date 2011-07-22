@@ -1,0 +1,10 @@
+//
+// Prefix header for all source files of the 'data_m' target in the 'data_m' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+    #import <Cocoa/Cocoa.h>
+    #import "CoreData+ActiveRecordFetching.h"
+#endif
