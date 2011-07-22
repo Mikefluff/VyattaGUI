@@ -18,7 +18,8 @@
 #import "TestWindowController.h"
 #import "ResultWindowController.h"
 #import "PXSourceList.h"
-#import "CoreData+ActiveRecordFetching.h"
+
+
 
 
 @interface MyDocument : NSPersistentDocument <PXSourceListDelegate, PXSourceListDataSource> {
